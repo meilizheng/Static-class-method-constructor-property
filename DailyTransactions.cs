@@ -41,6 +41,7 @@ namespace Static_class_method_constructor_property
             {
                 Console.WriteLine(transaction.ToString()); // Print details of each transaction
             }
+            Console.WriteLine($"Tax is { BusinessInfo.TaxAmount}");
             Console.WriteLine($"Total Amount with Tax: {CalculateTotal():C}"); // Print total amount with tax
         }
     }
